@@ -1,0 +1,16 @@
+ol{
+    background-color: rgb(229, 178, 112);
+}
+
+ol li{
+background-color: brown;
+margin: 5px;
+}
+
+h1{
+    background-color: coral;
+    margin: 20px;
+    padding: 46px;
+    height: 90px;
+    box-sizing:border-box;
+}
