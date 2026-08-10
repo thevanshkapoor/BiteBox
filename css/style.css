@@ -1,13 +1,17 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-nav div a{
+
+nav div a {
     text-decoration: none;
     color: white;
-    padding:5px;
+    padding: 5px;
 }
 
 nav div {
@@ -18,31 +22,31 @@ nav div {
     padding: 15px 40px;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-a:hover{
+a:hover {
     color: red;
 }
 
-nav h2{
+nav h2 {
     color: white;
 }
 
-nav div li:last-child a{
-    background-color:orange;
+nav div li:last-child a {
+    background-color: rgb(227, 147, 0);
     padding: 5px 10px;
-    border-radius:10px ;
+    border-radius: 7px;
 }
 
-nav div li:last-child a:hover{
-color: aqua;
-background-color: rgb(0, 14, 163);
+nav div li:last-child a:hover {
+    color: red;
+    background-color: rgb(253, 253, 1);
 }
 
-.active{
-    text-decoration:underline red double;
+.active {
+    text-decoration: underline red double;
 }
