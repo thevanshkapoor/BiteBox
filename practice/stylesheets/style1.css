@@ -14,3 +14,28 @@ h1{
     height: 90px;
     box-sizing:border-box;
 }
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    position: absolute;
+}
+
+#box1{
+    background-color: blueviolet;  
+    z-index: 3;
+}
+/* larger value of z index represents the front the position of the box and 
+lower value indicates that the box will remai at the back */
+#box2{
+    background-color: rgb(17, 200, 84);
+    z-index: 2;
+    left: 40px;
+}
+
+#box3{
+    background-color: rgb(192, 20, 45);
+    z-index: 1;
+    left: 70px;
+}
