@@ -1,44 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
-</head>
-<body>
-</body>
+  </head>
+
+  <body></body>
 </html>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BiteBox</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
+    <!-- Header Section -->
     <header>
-        <nav>
-            <div>
-                <h2>Bite<span style="color:red;">Box</span></h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="bitedeals.html">Deals</a> </li>
-                    <li><a href="cart.html" class="active">Cart <i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li><a href="login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div>
+          <h2>Bite<span style="color: red">Box</span></h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="bitedeals.html">Deals</a></li>
+            <li>
+              <a href="cart.html" class="active"
+                >Cart <i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+            <li>
+              <a href="login.html"
+                >Login <i class="fa-solid fa-right-to-bracket"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <section>
-        <h2>Cart</h2>
+
+    <!-- Cart Section -->
+    <section class="cart">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="item">
+              <img src="images/burger image.png" alt="" />
+              <div>
+                <h4>Cheesy Burger</h4>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </td>
+
+            <td>199</td>
+            <td>
+              <div class="qty-box">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td>199</td>
+            <td><button class="remove">Remove</button></td>
+          </tr>
+
+          <tr>
+            <td class="item">
+              <img src="images/burger image.png" alt="" />
+              <div>
+                <h4>Cheesy Burger</h4>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </td>
+
+            <td>199</td>
+            <td>
+              <div class="qty-box">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td>199</td>
+            <td><button class="remove">Remove</button></td>
+          </tr><tr>
+            <td class="item">
+              <img src="images/burger image.png" alt="" />
+              <div>
+                <h4>Cheesy Burger</h4>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </td>
+
+            <td>199</td>
+            <td>
+              <div class="qty-box">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td>199</td>
+            <td><button class="remove">Remove</button></td>
+          </tr>
+
+          <tr class="grand-total">
+            <td colspan="3">Grand Total</td>
+            <td>199</td>
+            <td><button>Proceed</button></td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <footer></footer>
-</body>
-
+  </body>
 </html>

@@ -1,202 +1,296 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
-
 nav div a {
-    text-decoration: none;
-    color: white;
-    padding: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
 }
 
 nav div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 15px 40px;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 nav h2 {
-    color: white;
+  color: white;
 }
 
 nav div li:last-child a {
-    background-color: rgb(227, 147, 0);
-    padding: 5px 10px;
-    border-radius: 7px;
+  background-color: rgb(227, 147, 0);
+  padding: 5px 10px;
+  border-radius: 7px;
 }
 
 nav div li:last-child a:hover {
-    color: red;
-    background-color: rgb(253, 253, 1);
+  color: red;
+  background-color: rgb(253, 253, 1);
 }
 
 .active {
-    text-decoration: underline red double;
+  text-decoration: underline red double;
 }
 
 .hero {
-    background-color: brown;
-    height: 90vh;
-    background: url(../images/Banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  background-color: brown;
+  height: 90vh;
+  background: url(../images/Banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .hero button {
-    background-color: red;
-    color: white;
-    padding: 8px 18px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 16px;
-    cursor: pointer;
+  background-color: red;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 16px;
+  cursor: pointer;
 }
 
 .hero button:hover {
-    background-color: darkred;
+  background-color: darkred;
 }
 
 .video-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 50px;
 }
 
 .video-text {
-    flex: 1;
+  flex: 1;
 }
 
 .video-box {
-    flex: 1;
+  flex: 1;
 }
 
 .video-box video {
-    width: 100%;
-    border-radius: 25px;
+  width: 100%;
+  border-radius: 25px;
 }
 
 .video-text h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 .video-text p {
-    font-size: 16px;
-    color: rgb(139, 125, 125);
+  font-size: 16px;
+  color: rgb(139, 125, 125);
 }
 
 .about {
-    text-align: center;
-    padding: 60px 20px;
-    background: #f9f9f9;
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
 }
 
 .about h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: rgba(255, 0, 0, 0.615);
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: rgba(255, 0, 0, 0.615);
 }
 
 .about p {
-    max-width: 700px;
-    line-height: 1.6;
-    margin: auto;
-    font-size: 18px;
-    color: #555;
+  max-width: 700px;
+  line-height: 1.6;
+  margin: auto;
+  font-size: 18px;
+  color: #555;
 }
 
 .card {
-    /* background-color: aqua; */
-    /* border: 2px solid black; */
-    padding: 15px;
-    text-align: center;
-    /* horizontal vertical blur spread */
-    box-shadow: 0px 4px 10px 0px black;
-    border-radius: 10px;
+  /* background-color: aqua; */
+  /* border: 2px solid black; */
+  padding: 15px;
+  text-align: center;
+  /* horizontal vertical blur spread */
+  box-shadow: 0px 4px 10px 0px black;
+  border-radius: 10px;
 }
-
 
 .card img {
-    width: 100%;
+  width: 100%;
 }
-
 
 .menu-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    /* border: 2px solid black; */
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  /* border: 2px solid black; */
+  padding: 20px;
 }
 
-.card button{
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 5px;
+.card button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
 }
 
-.icon-box{
-    min-width: 100px;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 15px;
+.icon-box {
+  min-width: 100px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px;
 }
 
-.icon-box img{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 3px solid rgb(155, 155, 117);
-    padding: 4px;
+.icon-box img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid rgb(155, 155, 117);
+  padding: 4px;
 }
 
-.category-icons{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* overflow: auto; if there are amny category items overflow 
+.category-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* overflow: auto; if there are amny category items overflow 
     adds a scrollbar automatically */
 }
 
-.icon-box p{
-    margin-top: 7px;
-    font-size: 13px;
+.icon-box p {
+  margin-top: 7px;
+  font-size: 13px;
 }
 
-.icon-box img:hover{
-    transform: scale(1.1);
-    border-color:black;
-    transition: 0.4s;
+.icon-box img:hover {
+  transform: scale(1.1);
+  border-color: black;
+  transition: 0.4s;
 }
 
-header{
-    position: sticky;
-    top: 0px;
-    z-index: 1000;
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  background-color: rgb(167, 211, 207);
+  border-radius: 11px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 40px;
+}
+
+thead {
+  background-color: red;
+  color: white;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 15px;
+}
+
+tbody tr {
+  border-bottom: 2px solid black;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 13px;
+}
+
+.item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.remove {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.remove:hover{
+    background-color: darkred;
+}
+
+.grand-total td{
+    font-weight: 750;
+    font-size: 18px;
+}
+
+.grand-total button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grand-total button:hover{
+    background-color: darkred;
+}
+
+.qty-box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.qty-box button{
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.qty-box button:hover{
+    background-color: #cc0000;
+}
+
+.qty-box span{
+    font-weight: bold;
+    min-width: 20px;
 }
