@@ -245,57 +245,57 @@ tbody tr {
   border-radius: 10px;
 }
 
-.remove:hover{
-    background-color: darkred;
+.remove:hover {
+  background-color: darkred;
 }
 
-.grand-total td{
-    font-weight: 750;
-    font-size: 18px;
+.grand-total td {
+  font-weight: 750;
+  font-size: 18px;
 }
 
-.grand-total button{
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.grand-total button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.grand-total button:hover{
-    background-color: darkred;
+.grand-total button:hover {
+  background-color: darkred;
 }
 
-.qty-box{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+.qty-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
-.qty-box button{
-    width: 28px;
-    height: 28px;
-    border: none;
-    background-color: red;
-    color: white;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
+.qty-box button {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.qty-box button:hover{
-    background-color: #cc0000;
+.qty-box button:hover {
+  background-color: #cc0000;
 }
 
-.qty-box span{
-    font-weight: bold;
-    min-width: 20px;
+.qty-box span {
+  font-weight: bold;
+  min-width: 20px;
 }
 
-.auth-container{
+.auth-container {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -303,7 +303,7 @@ tbody tr {
   background: linear-gradient(34deg, rgb(46, 44, 44), rgb(116, 95, 95));
 }
 
-.auth-box{
+.auth-box {
   background-color: white;
   padding: 25px;
   border-radius: 13px;
@@ -312,25 +312,25 @@ tbody tr {
   box-shadow: 0px 8px 25px;
 }
 
-.auth-box h2{
-margin-bottom: 14px;
-color: black;
+.auth-box h2 {
+  margin-bottom: 14px;
+  color: black;
 }
 
-.auth-box input{
+.auth-box input {
   width: 100%;
-padding:10px;
-margin: 10px;
-border: 2px solid rgb(47, 52, 186);
-border-radius: 2pc;
-outline: none;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgb(47, 52, 186);
+  border-radius: 2pc;
+  outline: none;
 }
 
-.auth-box input:focus{
+.auth-box input:focus {
   border: 2px solid red;
 }
 
-.auth-box button{
+.auth-box button {
   width: 100%;
   padding: 10px;
   background: red;
@@ -341,12 +341,153 @@ outline: none;
   cursor: pointer;
 }
 
-.auth-box p{
+.auth-box p {
   margin-top: 12px;
   font-size: 10px;
 }
 
-.auth-box a{
+.auth-box a {
   color: red;
-  text-decoration: none;
+  text-decoration: non;
+}
+
+.deals-page{
+  padding: 40px;
+  background-color: white;
+}
+
+.deal-hero{
+  background: linear-gradient(135deg, black,  rgb(184, 27, 27));
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px 6px 20px 6px;
+}
+
+.deal-hero h1{
+  font-size: 36px;
+}
+
+.deal-hero p{
+
+  font-size: 18px;
+}
+
+.section-title{
+  margin: 30px 0 20px;
+  font-size: 28px;
+  color: rgb(80, 77, 77);
+}
+
+.combo-section{
+  padding: 40px;
+  background: #fff;
+}
+
+.combo-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+}
+
+.combo-card img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.combo-card{
+  background: #cc0000;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 5px 15px black;
+  transition: 0.3s;
+}
+
+.combo-card img{
+  width: 100%;
+  border-radius: 70px;
+  margin-bottom: 20px;
+}
+
+.combo-card h4{
+  margin: 10px 0px;
+}
+
+.combo-card span{
+  text-decoration: 2px line-through red;
+  color: white;
+  margin-right: 10px;
+}
+
+.button {
+  /* width: 100%; */
+  padding: 10px;
+  background: rgb(218, 160, 160);
+  color: rgb(3, 0, 0);
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: darkred;
+}
+
+.combo-card:hover{
+  transform: scale(1.01);
+}
+
+.deals-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.deal-card{
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0px 5px 15px black;
+  margin-bottom: 28px;
+}
+
+.deal-card:hover{
+  transform: translateY(-6px);
+}
+
+.deal-card h3{
+  margin-bottom: 10px;
+}
+
+.red{
+  border-top: 3px solid red;
+}
+
+
+.yellow{
+  border-top: 3px solid yellow;
+}
+
+
+.green{
+  border-top: 3px solid green;
+}
+
+
+.blue{
+  border-top: 3px solid blue;
+}
+
+.deal-card span{
+  display: inline-block;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
